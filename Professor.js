@@ -16,7 +16,7 @@ class Professor {
 }
 
 const profTiago = new Professor('Tiago', '12345')
-const profJoana = new Professor('Joana', '348906')
+const profJoana = new Professor('Joana', '54321')
 
 console.log(profJoana)
 console.log(profTiago)
