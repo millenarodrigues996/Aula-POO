@@ -56,6 +56,3 @@ console.log(turma2026_1);
 turma2026_1.listarDisciplinas();
 
 
-export class Nota {
-    
-}
