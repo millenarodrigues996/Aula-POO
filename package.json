@@ -1,0 +1,21 @@
+{
+  "name": "aula-poo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Estaticos.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millenarodrigues996/Aula-POO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/millenarodrigues996/Aula-POO/issues"
+  },
+  "homepage": "https://github.com/millenarodrigues996/Aula-POO#readme"
+}
