@@ -47,5 +47,21 @@ class EstudantePrivado {
         const soma = this.#notas.reduce((acc, n) => acc + n, 0)
         return (soma / this.#notas.length).toFixed(2)
     }
-
 }
+
+const joao = new EstudantePrivado("João Encapsulado Da Silva", "E2023001") 
+
+console.log(joao.nome) //usa o getter (get nome)
+joao.adicionarNota(9)
+joao.adicionarNota(8)
+joao.adicionarNota(-3) //mostra o erro
+
+console.log(joao.notas) //usa o getter (get notas)
+console.log("Média do João:", joao.calcularMedia())
+
+console.log("\n--- Testando o Setter de Nome ---")
+console.log(`Nome atual: ${joao.nome}`)
+
+//a sintaxe é como se estivéssemos atribuindo a uma propriedade normal
+joao.nome = "João da Silva Sauro"
+console.log(`Nome novo: ${joao.nome}`)
