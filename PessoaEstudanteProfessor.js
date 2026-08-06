@@ -45,7 +45,7 @@ class Estudante extends Pessoa {
 
     // Sobrescrevendo o método da classe pai
     apresentar() {
-        console.log(`Olá, eu sou o estudante ${this.nome} de matrícula ${this.matricula}.`);
+        console.log(`Olá, sou o estudante ${this.nome} de matrícula ${this.matricula}.`);
     }
 
     // Métodos específicos de Estudante...
@@ -76,4 +76,12 @@ console.log(estudanteJoana)
 console.log(profTiago)
 
 //Consultando o dado Encapsulado
-console.log(profTiago.cpf)
+//console.log(profTiago.cpf)
+
+//Polimorfismo
+pessoaComum.apresentar()
+estudanteJoana.apresentar()
+profTiago.apresentar()
+
+console.log(`${estudanteJoana.nome} tem o CPF: ${estudanteJoana.cpf}`)
+
